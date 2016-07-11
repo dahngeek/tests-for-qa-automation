@@ -1,0 +1,31 @@
+{
+  "name": "tests-for-qa-automation",
+  "version": "1.0.0",
+  "description": "Algunas pruebas para web automation para aprender los diferentes webdrivers y además probarlos con un servicio como saucelabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:dahngeek/tests-for-qa-automation.git",
+  "keywords": [
+    "node",
+    "automation",
+    "qa",
+    "webdriver",
+    "selenium-webdriver",
+    "wdjs",
+    "wdio"
+  ],
+  "author": "Daniel Xutuc",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "saucelabs": "^1.2.0",
+    "selenium-webdriver": "^2.53.3",
+    "tape": "^4.6.0",
+    "wd": "^0.4.0",
+    "webdriverio": "^4.2.1"
+  }
+}
