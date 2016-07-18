@@ -1,0 +1,12 @@
+{
+  "tests": "tests/",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {},
+  "include": {
+    "I": "./steps_file.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "codecept"
+}

@@ -8,9 +8,11 @@ var options = {
     host: "ondemand.saucelabs.com",
     port: 80,
     logLevel: "silent",
-    desiredCapabilities: {  browserName: 'chrome',
-       platform: 'Windows 10',
-       version: '51.0'
+    desiredCapabilities: {
+        browserName: 'android',
+        deviceName: 'Samsung Galaxy S4 Emulator',
+        platform: 'linux',
+        version: '4.3'
     }
 };
 webdriverio.remote(options)

@@ -7,10 +7,15 @@ var options = {
     key: accessKey,
     host: "ondemand.saucelabs.com",
     port: 80,
-    logLevel: "silent",
-    desiredCapabilities: {  browserName: 'chrome',
-       platform: 'Windows 10',
-       version: '51.0'
+    logLevel: "verbose",
+    desiredCapabilities: {
+        browserName: 'Safari',
+        appiumVersion: '1.5.3',
+        deviceName: 'iPhone 6 Plus',
+        platformVersion: '9.3',
+        platformName: 'iOS',
+        name: 'Sample Test',
+        app: ''
     }
 };
 webdriverio.remote(options)
